@@ -1,0 +1,39 @@
+name: "Test"
+
+on: [push, workflow_dispatch]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+
+      - name: Expose pnpm Store Path
+        id: pnpm-store-path
+        shell: bash
+        run: echo "store-path=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: Setup pnpm Cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.pnpm-store-path.outputs.store-path }}
+          key: ${{ runner.os }}-pnpm-cache-${{ hashFiles('**/pnpm-lock.yaml') }}
+
+      - name: Install Dependencies
+        shell: bash
+        run: pnpm install --frozen-lockfile --prefer-offline
+
+      - name: Validate Configurations
+        shell: bash
+        run: pnpm test

@@ -14,7 +14,8 @@
   "homepage": "https://github.com/titanom/tsconfig#readme",
   "scripts": {
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "test": "node test"
   },
   "exports": {
     ".": "./tsconfig.json",
