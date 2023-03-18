@@ -141,7 +141,7 @@
 
     // https://www.typescriptlang.org/tsconfig#lib
     // TODO: specific
-    "lib": [],
+    "lib": ["ES2015"],
 
     // https://www.typescriptlang.org/tsconfig#moduleDetection
     "moduleDetection": "auto",
