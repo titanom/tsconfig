@@ -1,0 +1,192 @@
+{
+  "compilerOptions": {
+    // ## Type Checking
+    // https://www.typescriptlang.org/tsconfig#allowUnreachableCode
+    "allowUnreachableCode": false,
+
+    // https://www.typescriptlang.org/tsconfig#allowUnusedLabels
+    "allowUnusedLabels": false,
+
+    // https://www.typescriptlang.org/tsconfig#alwaysStrict
+    "alwaysStrict": true,
+
+    // https://www.typescriptlang.org/tsconfig#exactOptionalPropertyTypes
+    "exactOptionalPropertyTypes": false,
+
+    // https://www.typescriptlang.org/tsconfig#noFallthroughCasesInSwitch
+    "noFallthroughCasesInSwitch": false,
+
+    // https://www.typescriptlang.org/tsconfig#noImplicitAny
+    "noImplicitAny": true,
+
+    // https://www.typescriptlang.org/tsconfig#noImplicitOverride
+    "noImplicitOverride": true,
+
+    // https://www.typescriptlang.org/tsconfig#noImplicitReturns
+    "noImplicitReturns": false,
+
+    // https://www.typescriptlang.org/tsconfig#noImplicitThis
+    "noImplicitThis": true,
+
+    // https://www.typescriptlang.org/tsconfig#noPropertyAccessFromIndexSignature
+    "noPropertyAccessFromIndexSignature": true,
+
+    // https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess
+    "noUncheckedIndexedAccess": true,
+
+    // https://www.typescriptlang.org/tsconfig#noUnusedLocals
+    "noUnusedLocals": true,
+
+    // https://www.typescriptlang.org/tsconfig#noUnusedParameters
+    "noUnusedParameters": true,
+
+    // https://www.typescriptlang.org/tsconfig#strict
+    "strict": true,
+
+    // https://www.typescriptlang.org/tsconfig#strictBindCallApply
+    "strictBindCallApply": true,
+
+    // https://www.typescriptlang.org/tsconfig#strictFunctionTypes
+    "strictFunctionTypes": true,
+
+    // https://www.typescriptlang.org/tsconfig#strictNullChecks
+    "strictNullChecks": true,
+
+    // https://www.typescriptlang.org/tsconfig#strictPropertyInitialization
+    "strictPropertyInitialization": true,
+
+    // https://www.typescriptlang.org/tsconfig#useUnknownInCatchVariables
+    "useUnknownInCatchVariables": true,
+
+    // ## Modules
+    // https://www.typescriptlang.org/tsconfig#allowUmdGlobalAccess
+    "allowUmdGlobalAccess": false,
+
+    // https://www.typescriptlang.org/tsconfig#module
+    "module": "ES2015",
+
+    // https://www.typescriptlang.org/tsconfig#moduleResolution
+    // TODO: check this
+    "moduleResolution": "node16",
+
+    // https://www.typescriptlang.org/tsconfig#resolveJsonModule
+    // TODO: node only
+    "resolveJsonModule": true,
+
+    // ## Emit
+    // https://www.typescriptlang.org/tsconfig#downlevelIteration
+    "downlevelIteration": false,
+
+    // https://www.typescriptlang.org/tsconfig#importsNotUsedAsValues
+    "importsNotUsedAsValues": "error",
+
+    // https://www.typescriptlang.org/tsconfig#noEmit
+    "noEmit": true,
+
+    // https://www.typescriptlang.org/tsconfig#preserveConstEnums
+    "preserveConstEnums": true,
+
+    // https://www.typescriptlang.org/tsconfig#preserveValueImports
+    "preserveValueImports": false,
+
+    // https://www.typescriptlang.org/tsconfig#stripInternal
+    "stripInternal": true,
+
+    // ## JavaScript Support
+    // https://www.typescriptlang.org/tsconfig#allowJs
+    "allowJs": true,
+
+    // https://www.typescriptlang.org/tsconfig#checkJs
+    "checkJs": true,
+
+    // https://www.typescriptlang.org/tsconfig#maxNodeModuleJsDepth
+    "maxNodeModuleJsDepth": 0,
+
+    // ## Editor Support
+    // https://www.typescriptlang.org/tsconfig#disableSizeLimit
+    "disableSizeLimit": false,
+
+    // ## Interop Constraints
+    // https://www.typescriptlang.org/tsconfig#allowSyntheticDefaultImports
+    "allowSyntheticDefaultImports": false,
+
+    // https://www.typescriptlang.org/tsconfig#esModuleInterop
+    "esModuleInterop": false,
+
+    // https://www.typescriptlang.org/tsconfig#forceConsistentCasingInFileNames
+    "forceConsistentCasingInFileNames": true,
+
+    // https://www.typescriptlang.org/tsconfig#isolatedModules
+    "isolatedModules": true,
+
+    // https://www.typescriptlang.org/tsconfig#preserveSymlinks
+    "preserveSymlinks": false,
+
+    // ## Backwards Compatibility
+    // https://www.typescriptlang.org/tsconfig#noStrictGenericChecks
+    "noStrictGenericChecks": false,
+
+    // https://www.typescriptlang.org/tsconfig#suppressExcessPropertyErrors
+    "suppressExcessPropertyErrors": false,
+
+    // https://www.typescriptlang.org/tsconfig#suppressImplicitAnyIndexErrors
+    "suppressImplicitAnyIndexErrors": false,
+
+    // ## Language and Environment
+    // https://www.typescriptlang.org/tsconfig#experimentalDecorators
+    "experimentalDecorators": true,
+
+    // https://www.typescriptlang.org/tsconfig#jsx
+    "jsx": "preserve",
+
+    // https://www.typescriptlang.org/tsconfig#lib
+    // TODO: specific
+    "lib": [],
+
+    // https://www.typescriptlang.org/tsconfig#moduleDetection
+    "moduleDetection": "auto",
+
+    // https://www.typescriptlang.org/tsconfig#noLib
+    "noLib": false,
+
+    // https://www.typescriptlang.org/tsconfig#target
+    // TODO: fix
+    "target": "ES3",
+
+    // https://www.typescriptlang.org/tsconfig#useDefineForClassFields
+    // TODO: check
+    "useDefineForClassFields": true,
+
+    // ## Projects
+    // https://www.typescriptlang.org/tsconfig#composite
+    "composite": true,
+
+    // https://www.typescriptlang.org/tsconfig#disableReferencedProjectLoad
+    "disableReferencedProjectLoad": false,
+
+    // https://www.typescriptlang.org/tsconfig#disableSolutionSearching
+    "disableSolutionSearching": false,
+
+    // https://www.typescriptlang.org/tsconfig#disableSourceOfProjectReferenceRedirect
+    "disableSourceOfProjectReferenceRedirect": false,
+
+    // https://www.typescriptlang.org/tsconfig#incremental
+    "incremental": true,
+
+    // https://www.typescriptlang.org/tsconfig#tsBuildInfoFile
+    "tsBuildInfoFile": ".tsbuildinfo",
+
+    // ## Output Formatting
+    // https://www.typescriptlang.org/tsconfig#noErrorTruncation
+    "noErrorTruncation": true,
+
+    // https://www.typescriptlang.org/tsconfig#preserveWatchOutput
+    "preserveWatchOutput": false,
+
+    // https://www.typescriptlang.org/tsconfig#pretty
+    "pretty": true,
+
+    // https://www.typescriptlang.org/tsconfig#skipLibCheck
+    "skipLibCheck": false
+  }
+}
