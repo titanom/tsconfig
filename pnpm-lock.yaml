@@ -1,0 +1,26 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@titanom/prettier-config': ^1.0.3
+  prettier: ^2.8.4
+
+devDependencies:
+  '@titanom/prettier-config': 1.0.3_prettier@2.8.4
+  prettier: 2.8.4
+
+packages:
+
+  /@titanom/prettier-config/1.0.3_prettier@2.8.4:
+    resolution: {integrity: sha512-8Fidn3Kq1CapWP3PGS8hy8Tphzbxf8qm70HLqvIjOvE5r63KkW9SePMa+p3SaxnwayZRaxEcxARf8/oExrQmYA==}
+    engines: {node: '>=16', pnpm: '>=7'}
+    peerDependencies:
+      prettier: ^2.x.x
+    dependencies:
+      prettier: 2.8.4
+    dev: true
+
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true

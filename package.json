@@ -12,10 +12,18 @@
     "url": "https://github.com/titanom/tsconfig/issues"
   },
   "homepage": "https://github.com/titanom/tsconfig#readme",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
   "exports": {
     ".": "./tsconfig.json",
     "./react": "./tsconfig.react.json",
     "./nextjs": "./tsconfig.nextjs.json",
     "./node": "./tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@titanom/prettier-config": "^1.0.3",
+    "prettier": "^2.8.4"
   }
 }
