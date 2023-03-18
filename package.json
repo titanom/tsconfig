@@ -1,0 +1,21 @@
+{
+  "name": "@titanom/tsconfig",
+  "version": "0.0.0",
+  "description": "Default TypeScript configurations for projects at Titanom Technologies",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titanom/tsconfig.git"
+  },
+  "author": "Jannis Morgenstern <nyarthan@proton.me> (https://github.com/nyarthan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/titanom/tsconfig/issues"
+  },
+  "homepage": "https://github.com/titanom/tsconfig#readme",
+  "exports": {
+    ".": "./tsconfig.json",
+    "./react": "./tsconfig.react.json",
+    "./nextjs": "./tsconfig.nextjs.json",
+    "./node": "./tsconfig.node.json"
+  }
+}
