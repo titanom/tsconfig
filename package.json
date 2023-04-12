@@ -17,12 +17,6 @@
     "format:check": "prettier --check .",
     "test": "node test"
   },
-  "exports": {
-    ".": "./src/tsconfig.json",
-    "./react": "./src/tsconfig.react.json",
-    "./nextjs": "./src/tsconfig.nextjs.json",
-    "./node": "./src/tsconfig.node.json"
-  },
   "devDependencies": {
     "@titanom/prettier-config": "^1.0.3",
     "prettier": "^2.8.4",
