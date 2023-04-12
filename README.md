@@ -13,6 +13,7 @@ pnpm add -D @titanom/tsconfig
 This package includes multiple configurations for different environments.
 
 Available configurations:
+
 - `@titanom/tsconfig`: Base - all other configs extend from this.
 - `@titanom/tsconfig/react`: For Projects using React & are run only in a browser environment.
 - `@titanom/tsconfig/node`: For Projects using the Node.js runtime.
