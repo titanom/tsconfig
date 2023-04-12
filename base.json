@@ -156,7 +156,8 @@
 
     // ## Projects
     // https://www.typescriptlang.org/tsconfig#composite
-    "composite": true,
+    // This option breaks resolution of types in `node_moduels` when using pnpm.
+    "composite": false,
 
     // https://www.typescriptlang.org/tsconfig#disableReferencedProjectLoad
     "disableReferencedProjectLoad": false,
