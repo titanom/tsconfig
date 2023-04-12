@@ -1,6 +1,6 @@
 {
   "name": "@titanom/tsconfig",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Default TypeScript configurations for projects at Titanom Technologies",
   "repository": {
     "type": "git",
