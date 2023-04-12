@@ -77,9 +77,6 @@
     // https://www.typescriptlang.org/tsconfig#downlevelIteration
     "downlevelIteration": false,
 
-    // https://www.typescriptlang.org/tsconfig#importsNotUsedAsValues
-    "importsNotUsedAsValues": "error",
-
     // https://www.typescriptlang.org/tsconfig#noEmit
     "noEmit": true,
 
@@ -151,7 +148,7 @@
 
     // https://www.typescriptlang.org/tsconfig#target
     // TODO: fix
-    "target": "ES3",
+    "target": "ESNext",
 
     // https://www.typescriptlang.org/tsconfig#useDefineForClassFields
     // TODO: check

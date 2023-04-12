@@ -18,10 +18,10 @@
     "test": "node test"
   },
   "exports": {
-    ".": "./tsconfig.json",
-    "./react": "./tsconfig.react.json",
-    "./nextjs": "./tsconfig.nextjs.json",
-    "./node": "./tsconfig.node.json"
+    ".": "./src/tsconfig.json",
+    "./react": "./src/tsconfig.react.json",
+    "./nextjs": "./src/tsconfig.nextjs.json",
+    "./node": "./src/tsconfig.node.json"
   },
   "devDependencies": {
     "@titanom/prettier-config": "^1.0.3",
